@@ -1,0 +1,204 @@
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color:#fdfcc4;
+	background-image: linear-gradient
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans TC', sans-serif;
+	text-transform: none;
+}
+
+.subheading {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	text-transform: none;
+	letter-spacing: -0.05rem;
+}
+
+h1 .text-primary {
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	line-height: 3rem;
+}
+
+.bg-primary {
+	background-color: #D18800 !important;
+	background-image: url("argyle.png");
+}
+div.aaa {
+     background-color: #7744FF;
+}
+.text-primary {
+	color: #33B2FF !important;
+}
+div.amy {
+    margin: 3px;
+    float: center;
+    width: 300px;
+    background-color: #CEFFCE;
+}
+
+div.amy {
+    border:6px solid #D6FE1E;
+    border-radius: 6px;
+}
+div. {
+    margin: 5px;
+    float: center;
+    width: 300px;
+    background-color: #DCDDDE;
+}
+.card.title{
+    background-color:#f5c7c7;
+}
+
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	text-transform: none;
+}
+
+a {
+	color: #33B2FF ;
+}
+
+a:active, a:focus, a:hover {
+	color: #33B2FF ;
+}
+
+.social-icons a:hover {
+	background-color: #33B2FF ;
+}
+
+.dev-icons .list-inline-item i:hover {
+    color: #33B2FF ;
+}
+
+.graph_set {
+	margin-top: 3rem;
+}
+
+div#flex_amy{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+div.amy img{
+	width:100%;
+}
+.small-text {
+	font-size: 1.2rem;
+}
+
+div.zht {
+    padding: 0;
+    text-align: center;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+ .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+
+
+  .table thead th{
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+.timeline::after {
+  content: '';
+  background-color: #33B2FF ;
+  position: absolute;
+  width: 6px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-block {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.social-icons a{
+    background-color: #cc8800;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url(https://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+}
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+}
+/* The circles on the timeline */
+.timeline-block::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #33B2FF ;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.timeline-left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.timeline-right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline-right::after {
+  left: -12px;
+}
+
+/* Media queries - Responsive timeline on screens less than 992px wide */
+@media screen and (max-width: 992px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timeline-block {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+ 
+  /* Make all right containers behave like the left ones */
+  .timeline-right {
+    left: 0%;
+  }
+  
+  /* Make sure all circles are at the same spot */
+  .timeline-left::after, .timeline-right::after {
+    left: 17px;
+  }
+}
+jumbotron ul{
+     list-style-type: disc;}
