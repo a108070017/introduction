@@ -148,13 +148,16 @@ div.zht {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
+div.john img{
+	width:100%;
+}
 div.john {
     margin: 3px;
     float: center;
     width: 400px;
 }
 div.john {
-   
+    border:6px solid #FED414;
 	float: center;
     border-radius: 6px;
     padding: 2px; 
