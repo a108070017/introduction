@@ -151,6 +151,12 @@ div.zht {
 div.john img{
 	width:100%;
 }
+div#flex_john{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 div.john {
     margin: 3px;
     float: center;
