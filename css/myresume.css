@@ -46,11 +46,11 @@ div.amy {
 div.john {
     margin: 3px;
     float: center;
-    width: 300px;
-    background-color: #90EE90;
+    width: 400px;
 }
 div.john {
     border:6px solid #C6D7C7;
+	float: center;
     border-radius: 6px;
 div. {
     margin: 5px;
