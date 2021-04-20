@@ -52,6 +52,8 @@ div.john {
     border:6px solid #C6D7C7;
 	float: center;
     border-radius: 6px;
+    padding: 2px; 
+    border-collapse: separate
 div. {
     margin: 5px;
     float: center;
