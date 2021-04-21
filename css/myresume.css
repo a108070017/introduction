@@ -148,12 +148,7 @@ div.zht {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
-.john img{
-	width:80%;
-	position:absolute;
-        top:50%;
-        left:50%;
-}
+
 
 div#flex_john{
     display: flex;
@@ -172,6 +167,13 @@ john {
     border-radius: 6px;
     padding: 2px; 
     border-collapse: separate
+{
+.john img{
+	width:80%;
+	position:absolute;
+        top:50%;
+        left:50%;
+}
 /* The circles on the timeline */
 .timeline-block::after {
   content: '';
