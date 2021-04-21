@@ -149,8 +149,7 @@ div.zht {
     margin-right: 1rem;
 }
 div.john img{
-	width:80%;
-	float: center;
+	width:100%;
 }
 div#flex_john{
     display: flex;
