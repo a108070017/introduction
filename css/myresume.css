@@ -150,6 +150,7 @@ div.zht {
 }
 div.john img{
 	width:80%;
+	float: center;
 }
 div#flex_john{
     display: flex;
