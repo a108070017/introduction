@@ -148,7 +148,7 @@ div.zht {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
-div.john img{
+.john img{
 	width:80%;
 }
 #three {
@@ -162,11 +162,13 @@ div#flex_john{
     flex-wrap: wrap;
     flex-direction: row;
 }
-div.john {
+.john {
     margin: 3px;
     width: 400px;
+    float: center;
+	
 }
-div.john {
+john {
     border:6px solid #FED414;
     border-radius: 6px;
     padding: 2px; 
