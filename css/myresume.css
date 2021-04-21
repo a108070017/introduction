@@ -150,7 +150,7 @@ div.zht {
 }
 
 
-div#flex_john{
+.div#flex_john{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@ div#flex_john{
     float: center;
 	
 }
-john {
+.john {
     border:6px solid #FED414;
     border-radius: 6px;
     padding: 2px; 
