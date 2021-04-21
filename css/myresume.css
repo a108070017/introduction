@@ -150,6 +150,12 @@ div.zht {
 }
 div.john img{
 	width:100%;
+	
+}
+#three {
+   position: absolute;
+   top: 20px;
+   left: 20px;
 }
 div#flex_john{
     display: flex;
