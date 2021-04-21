@@ -164,12 +164,10 @@ div#flex_john{
 }
 div.john {
     margin: 3px;
-    float: center;
     width: 400px;
 }
 div.john {
     border:6px solid #FED414;
-	float: center;
     border-radius: 6px;
     padding: 2px; 
     border-collapse: separate
