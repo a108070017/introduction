@@ -153,8 +153,8 @@ div.john img{
 }
 #three {
    position: absolute;
-   top: 20px;
-   left: 20px;
+  top: 80px;
+  left: 200px;
 }
 div#flex_john{
     display: flex;
