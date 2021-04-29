@@ -179,12 +179,9 @@ div.john img {
   width: 50%;
 }
 img.winter{
-	 width: 150px;
-    height: 150px;
-    line-height: 150px;
-    max-width: 100%;
-    display: block;
-    text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* The circles on the timeline */
 .timeline-block::after {
