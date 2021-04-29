@@ -171,13 +171,7 @@ img {
     padding: 2px; 
     border-collapse: separate
 {
-div.john img {
-  vertical-align : middle;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 img.winter{
 	display: block;
     margin-left: auto;
@@ -188,12 +182,12 @@ img.summer {
     margin-left: auto;
     margin-right: auto;
 }
-	img.funny {
+img.funny {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-	img.ively {
+img.ively {
     display: block;
     margin-left: auto;
     margin-right: auto;
