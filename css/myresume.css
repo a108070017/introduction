@@ -183,6 +183,21 @@ img.winter{
     margin-left: auto;
     margin-right: auto;
 }
+img.summer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	img.funny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	img.ively {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* The circles on the timeline */
 .timeline-block::after {
   content: '';
