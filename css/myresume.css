@@ -53,15 +53,7 @@ div. {
 .card.title{
     background-color:#f5c7c7;
 }
-.photo{
- width: 150px;
-    height: 150px;
-    line-height: 150px;
-    max-width: 100%;
-    display: block;
-    text-align: center;
-    background-color: #eb9700;
-}
+
 
 #sideNav .navbar-nav .nav-item .nav-link {
 	text-transform: none;
@@ -179,11 +171,8 @@ img {
     padding: 2px; 
     border-collapse: separate
 {
-.john img{
-	width:80%;
-	position:absolute;
-        top:50%;
-        left:50%;
+div.john img {
+  vertical-align : middle;
 }
 img.winter{
 	 width: 150px;
